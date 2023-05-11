@@ -1,15 +1,15 @@
 # endpointBiodata
 Tugas NodeJS Express PESILAT Alkademi 2023
 
-## URL and Output
-GET Request:
-URL: http://localhost:3000/biodata?name=arya&tempat-lahir=tangerang&tanggal-lahir=30031996&alamat=Jl.%20Rajungan,%20Rawamangun
-Metode: GET
+## URL Parameter
+GET Request: <br>
+URL: http://localhost:3000/biodata?name=arya&tempat-lahir=tangerang&tanggal-lahir=30031996&alamat=Jl.%20Rajungan,%20Rawamangun <br>
+Metode: GET <br> <br>
 
-POST Request:
-URL: http://localhost:3000/biodata
-Metode: POST
-Body (dalam format JSON):
+POST Request: <br>
+URL: http://localhost:3000/biodata <br>
+Metode: POST <br>
+Body (dalam format JSON): <br>
 {
   "nama": "arya",
   "tempat-lahir": "tangerang",
